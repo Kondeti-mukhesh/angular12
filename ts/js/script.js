@@ -1,0 +1,15 @@
+"use strict";
+let a = 25;
+console.log(typeof (a));
+let b = 12;
+console.log(b);
+let c = "mukhesh";
+let d = true;
+let e = undefined;
+let f = null;
+let g = "mukhesh";
+let h = [2, 5, 8, 7, 9];
+let i = ["mukhesh", 25];
+let j = "dhgjhg";
+let k = [];
+console.log(b, c, d, e, f, g, h, i, k, j);

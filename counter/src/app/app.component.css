@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+    padding: 50px;
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#count{
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    background-color: rgb(48, 245, 22);
+    color: white;
+    margin: 0px 10px;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+button:disabled{
+    background-color: grey;
+}
+button:hover{
+    background: linear-gradient(rgb(14, 133, 236),blue);
+    color: black;
+}
